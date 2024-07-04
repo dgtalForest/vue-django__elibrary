@@ -57,15 +57,15 @@ ROOT_URLCONF = 'e_library.urls'
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:5000",
-    "https://epustakalaya.web.app",
-    "https://epustakalaya.firebaseapp.com"
+    "https://vue-django__elibrarya.web.app",
+    "https://vue-django__elibrarya.firebaseapp.com"
 ]
 CORS_ORIGIN_ALLOW_ALL = False
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "epustakalaya.web.app",
-    "epustakalaya.firebaseapp.com"
+    "vue-django__elibrarya.web.app",
+    "vue-django__elibrarya.firebaseapp.com"
 ]
 
 
@@ -199,4 +199,4 @@ DEFAULT_FROM_EMAIL = 'Shyamkumar Yadav'
 # Media File
 DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
 DROPBOX_OAUTH2_TOKEN = os.getenv("DROPBOX_TOKEN")
-DROPBOX_ROOT_PATH = '/ePustakalay'
+DROPBOX_ROOT_PATH = '/vue-django__elibrary'

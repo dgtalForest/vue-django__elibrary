@@ -6,7 +6,7 @@ class BookModelTest(TestCase):
 
     @classmethod
     def setUpTestData(cls):
-        models.BookPublish.objects.create(company_name="lol xD", website="https://github.com/shyamkumaryadav").genre.set([])
+        models.BookPublish.objects.create(company_name="lol xD", website="https://github.com/dgtalforest").genre.set([])
         # Set up non-modified objects used by all test methods
     
     # def setUp(self):

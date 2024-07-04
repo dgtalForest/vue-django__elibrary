@@ -4,12 +4,12 @@
   "description": "A Python, Node, HTML, CSS, Javascript, Django, DRF(Django REST framework), Vue and Vuetify Project.",
   "author": {
     "name": "Shyamkumar Yadav",
-    "email": "shyamkumaryadav2003@gmail.com",
-    "url": "https://shyamkumaryadav.tk"
+    "email": "dgtalforest2003@gmail.com",
+    "url": "https://dgtalforest.tk"
   },
-  "bugs": "https://github.com/shyamkumaryadav/ePustakalay/issues",
-  "repository": "github:shyamkumaryadav/ePustakalay",
-  "homepage": "https://epustakalay.pythonanywhere.com",
+  "bugs": "https://github.com/dgtalforest/vue-django__elibrary/issues",
+  "repository": "github:dgtalforest/vue-django__elibrary",
+  "homepage": "https://vue-django__elibrary.pythonanywhere.com",
   "private": true,
   "license": "MIT",
   "keywords": [

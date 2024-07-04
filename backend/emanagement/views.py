@@ -16,10 +16,10 @@ import json
 
 
 def handler404(request, exception):
-    return HttpResponse(f"<h1 style='text-align: center;'>404 <a style='text-decoration: none;' title='Send me Email' href='mailto:shyamkumaryadav2003@gmail.com'>Send me an email</a><br><a style='text-decoration: none;' href='/' title='API Home Page' style='color:red;'>Go back</a></h1><br><p style='text-align: center;'>The requested resource was not found on this server.</p><hr>")
+    return HttpResponse(f"<h1 style='text-align: center;'>404 <a style='text-decoration: none;' title='Send me Email' href='mailto:dgtalforest2003@gmail.com'>Send me an email</a><br><a style='text-decoration: none;' href='/' title='API Home Page' style='color:red;'>Go back</a></h1><br><p style='text-align: center;'>The requested resource was not found on this server.</p><hr>")
 
 def handler500(request):
-    return HttpResponse(f"<h1 style='text-align: center;'>500 error handler! contect admin <a href='mailto:shyamkumaryadav2003@gmail.com'>shyamkumaryadav2003@gmail.com</a></h1>")
+    return HttpResponse(f"<h1 style='text-align: center;'>500 error handler! contect admin <a href='mailto:dgtalforest2003@gmail.com'>dgtalforest2003@gmail.com</a></h1>")
 
 
 class UserViewSet(viewsets.ModelViewSet):

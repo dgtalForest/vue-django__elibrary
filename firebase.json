@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "epustakalaya",
+    "site": "vue-django__elibrarya",
     "public": "frontend/dist",
     "ignore": [
       "firebase.json",

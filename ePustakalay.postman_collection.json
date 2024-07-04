@@ -1,7 +1,7 @@
 {
 	"id": "a05b13a0-4ed6-413a-a1aa-56006c38a9bc",
-	"name": "ePustakalay",
-	"description": "ePustakalay API TESTS",
+	"name": "vue-django__elibrary",
+	"description": "vue-django__elibrary API TESTS",
 	"auth": null,
 	"events": null,
 	"variables": [],

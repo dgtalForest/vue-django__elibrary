@@ -3,7 +3,7 @@
 printf "***************************$(tput bold)hy, $(tput setaf 6)$USERNAME$(tput sgr0)****************************\n"
 printf "$(tput bold)$(tput setaf 2)Starting development server also on http://$(hostname -I)\b:8000/$(tput sgr0)\n"
 function safe_c() {
-    cd ~/Projects/ePustakalay
+    cd ~/Projects/vue-django__elibrary
     if pgrep python;
     then
         pkill python

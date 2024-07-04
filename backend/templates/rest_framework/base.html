@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="https://secure.gravatar.com/avatar/1840c1d32f824408af0521456033aa07" type="image/x-icon">
   {% endblock %}
   
-  <title>{% block title %}{% if name %}{{ name }} | {% endif %}ePustakalay{% endblock %}</title>
+  <title>{% block title %}{% if name %}{{ name }} | {% endif %}vue-django__elibrary{% endblock %}</title>
   
   {% block style %}
   {% block bootstrap_theme %}
@@ -66,7 +66,7 @@ main {
 <body class="{% block bodyclass %}{% endblock %}">
 
   <!-- github Mark SVG -->
-  <a id="githubMark" href="//github.com/shyamkumaryadav/ePustakalay" target="_blank" style="z-index: 2;position: fixed;right: 5%;bottom: 5%;" title="Fork me on GitHub">
+  <a id="githubMark" href="//github.com/dgtalforest/vue-django__elibrary" target="_blank" style="z-index: 2;position: fixed;right: 5%;bottom: 5%;" title="Fork me on GitHub">
     <img src="{% static 'GitHub-Mark.svg' %}" alt="Github Logo" width="40px">
   </a>
   </style>
@@ -84,7 +84,7 @@ main {
             <span class="icon-bar"></span>
           </button>
           {% block branding %}
-          <p class='navbar-brand'><a href='{% url 'admin:index' %}' target="_blank">ePustakalay </a><a href="{% url 'api-root' %}">
+          <p class='navbar-brand'><a href='{% url 'admin:index' %}' target="_blank">vue-django__elibrary </a><a href="{% url 'api-root' %}">
             API
           </a></p>
           {% endblock branding %}
@@ -409,7 +409,7 @@ main {
         
       </style>
       <div style="cursor: auto;" class="text-center">
-        made with <a href="//djangoproject.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="Django Project &hearts;">Django</a>, <a href="//django-rest-framework.org/" target="_blank" data-toggle="tooltip" data-placement="top" title="Django REST Api Project &hearts;">DRF</a><div style="color: red;font-size: 35px;animation: heartbeat 1s infinite;">&hearts;</div><a href="//github.com/shyamkumaryadav" target="_blank" data-toggle="tooltip" data-placement="top" title="Shyamkumar's site">Shyamkumar Yadav</a>
+        made with <a href="//djangoproject.com/" target="_blank" data-toggle="tooltip" data-placement="top" title="Django Project &hearts;">Django</a>, <a href="//django-rest-framework.org/" target="_blank" data-toggle="tooltip" data-placement="top" title="Django REST Api Project &hearts;">DRF</a><div style="color: red;font-size: 35px;animation: heartbeat 1s infinite;">&hearts;</div><a href="//github.com/dgtalforest" target="_blank" data-toggle="tooltip" data-placement="top" title="Shyamkumar's site">Shyamkumar Yadav</a>
       </div>
     </footer>
   <!-- </div>./wrapper -->

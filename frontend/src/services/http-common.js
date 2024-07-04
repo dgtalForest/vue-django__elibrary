@@ -15,7 +15,7 @@ import axios from "axios";
  *          // handle any errors. if Unauthorized try refreshToken
  *        });
 */
-const BASE_URL = 'https://epustakalay.pythonanywhere.com/api';
+const BASE_URL = 'https://vue-django__elibrary.pythonanywhere.com/api';
 const ACCESS_TOKEN = 'access_token';
 const REFRESH_TOKEN = 'refresh_token';
 // const xsrfCookieName = 'csrftoken';

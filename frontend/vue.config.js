@@ -12,7 +12,7 @@ module.exports = {
     config
       .plugin('html')
       .tap(args => {
-        args[0].title = "Welcome on ePustakalay Site"
+        args[0].title = "Welcome on vue-django__elibrary Site"
         return args
       })
   }
